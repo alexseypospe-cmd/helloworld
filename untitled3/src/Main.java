@@ -1,24 +1,24 @@
 public class Main {
     public static void main(String[] args) {
         //задание 1
-        byte a;
-        System.out.println("Значене переменной а с типом byte равно 0");
-        short b;
-        System.out.println("Значене переменной b с типом short равно 0");
-        int c;
-        System.out.println("Значене переменн ой c с типом int равно 0");
-        long d;
-        System.out.println("Значене переменной d с типом long равно 0");
-        float e;
-        System.out.println("Значене переменной e с типом float равно 0");
-        double f;
-        System.out.println("Значене переменной f с типом double равно 0");
+        int a = 3000;
+        System.out.println("Значене переменной a с типом int равно "+a);
+        byte b = 30;
+        System.out.println("Значене переменной b с типом byte равно "+b);
+        short c = 300;
+        System.out.println("Значене переменной c с типом short равно "+c);
+        long d = 300000;
+        System.out.println("Значене переменной d с типом long равно "+d);
+        float e = 3.14f;
+        System.out.println("Значене переменной e с типом float равно "+e);
+        double f = 3.14159265;
+        System.out.println("Значене переменной f с типом double равно "+f);
         //задание 2
-        double moon = 27.12;
-        long cun = 987678965549L;
-        float type = 2.786f;
-        short cool = 569;
-        short numb =-159;
+        float type = 27.12f;
+        long son = 987678965549L;
+        double moon = 2.786;
+        var numb = 569;
+        short cool = -159;
         int out = 27897;
         byte good = 67;
         //задание 3
@@ -32,7 +32,7 @@ public class Main {
         // задание 4
         int bottles = 16;
         int time = 2;
-        int bottlesOne =bottles/time;
+        int bottlesOne = bottles/time;
         int timeA = 20;
         int time20 = bottlesOne*20;
         System.out.println("За "+timeA+" минут "+"машина произвела "+time20+" штук бутылок");
@@ -62,12 +62,12 @@ public class Main {
         int iceCream = 2;
         int eggs = 4;
         int bananasWeight = 80;
-        int iceCreamWeight = 100;
+        int icecreamWeight = 100;
         int eggsWeight = 70;
         int bananasWeight1 = bananas * 80;
-        int iceCreamWeight1 = iceCream * 100;
+        int icecreamWeight1 = iceCream * 100;
         int eggsWeight1 = eggs * 70;
-        double productsWeight = bananasWeight1 + massMilk2 + iceCreamWeight + eggsWeight1;
+        double productsWeight = bananasWeight1 + massMilk2 + icecreamWeight + eggsWeight1;
         double productsWeight1 = productsWeight / kg;
         double productsWeight2 = productsWeight % kg;
         System.out.println("Общий вес продуктов "+productsWeight+" гр.");
